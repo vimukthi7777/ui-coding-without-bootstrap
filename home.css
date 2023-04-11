@@ -2,15 +2,23 @@
 }
 
 body {
-    background-image: url(image/bg.jpg);
-    width: 1440px;
-    height: 3000px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+  }
+  
+  body {
+    background-image: url('image/bgh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 .container{
     width:80%;
     margin: 0;
     padding:0;
-    margin: auto;
+    margin: 80px;
 }
 .menu-bar{
     margin-top: 10px;
@@ -41,6 +49,21 @@ body {
     font-size: 16px;
     font-weight: 550;
     line-height: 19px;
-    letter-spacing: 0.02em;
     text-transform: uppercase;
+}
+.menu-right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.btn.btn-primary{
+    background-color: #ffffff;
+    color: #ff7a00;
+    padding:10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    
 }
