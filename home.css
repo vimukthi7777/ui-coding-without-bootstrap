@@ -2,29 +2,23 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-   
-  }
-  
-  body {
     background-image: url('image/bgh.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 .container{
     width:80%;
     margin: 0;
     padding:0;
-    margin: 80px;
+    margin: auto;
 }
 .menu-bar{
     margin-top: 10px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .logo{
@@ -65,5 +59,6 @@ body {
     padding:10px 15px;
     text-decoration: none;
     font-size: 16px;
+    border-radius: 10px;
     
 }
