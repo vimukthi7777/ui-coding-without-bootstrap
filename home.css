@@ -3,13 +3,11 @@
 
 body {
     background-image: url('image/bgh.png');
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+    background-size:cover;
+      }
 .container{
-    width:80%;
+    width:90%;
     margin: 0;
     padding:0;
     margin: auto;
@@ -22,14 +20,17 @@ body {
 }
 
 .logo{
-    display:inline-block;
+    display:flex;
+    align-items: center;
     margin-right: 35px;
+    justify-content: flex-start;
 }
 .logo img{
     width: 300px;
     height: 98;
     padding-right: 30px;
 }
+
 .menu ul{
     display: flex;
     align-items: center;
@@ -59,6 +60,38 @@ body {
     padding:10px 15px;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 0px;
+}
+
+/* hero section */
+
+.hero{
+    background-image: url(image/sky.png);
+    height: 615px;
+    width: 619px;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    margin-block: -34px;
     
+    
+}
+.title{
+    text-align: left;
+    color: #ffffff;
+    margin: 1px;
+    margin-block: 32px;
+    font-size: 98px;
+    
+    
+}
+
+.sub{
+    text-align: left;
+   font-size: 22px; 
+   color:rgb(255, 255, 255);
+   padding-left: 1px;
+   padding-right: 1px;
+   padding-top: 15px;
+   padding-bottom: 10px;
 }
