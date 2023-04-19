@@ -1,10 +1,12 @@
 *{font-family: 'Poppins', sans-serif;
 }
 
-body {
+
+header {
     background-image: url('image/bgh.png');
     background-repeat: no-repeat;
     background-size:cover;
+    height: 1420px;
       }
 .container{
     width:90%;
@@ -65,16 +67,15 @@ body {
 
 /* hero section */
 
-.hero{
+.upimg{
     background-image: url(image/sky.png);
     height: 615px;
     width: 619px;
     background-size: cover;
     position: absolute;
     right: 0;
-    margin-block: -34px;
-    
-    
+    margin-block: -108px;
+     
 }
 .title{
     text-align: left;
@@ -94,4 +95,20 @@ body {
    padding-right: 1px;
    padding-top: 15px;
    padding-bottom: 10px;
+}
+
+.topd{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin: 0%;
+    padding-top: 237px;
+}
+
+.dd{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-family: merriweather;
+    margin: 0%;
 }
