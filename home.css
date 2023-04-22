@@ -1,15 +1,24 @@
 *{font-family: 'Poppins', sans-serif;
 }
 
+body{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 header {
-    background-image: url('image/bgh.png');
+    background-image: url('image/bg22.png');
     background-repeat: no-repeat;
     background-size:cover;
-    height: 1420px;
+    background-position: center;
+    height: 839px;
+    width: 1320px;
+    padding: 0 100px;
+    margin-left: 0px;
       }
 .container{
-    width:90%;
+    width:100%;
     margin: 0;
     padding:0;
     margin: auto;
@@ -31,6 +40,8 @@ header {
     width: 300px;
     height: 98;
     padding-right: 30px;
+    border-top-left-radius:0px;
+    margin-top: -13px;
 }
 
 .menu ul{
@@ -63,6 +74,7 @@ header {
     text-decoration: none;
     font-size: 16px;
     border-radius: 0px;
+    margin-top: -12px;
 }
 
 /* hero section */
@@ -74,7 +86,8 @@ header {
     background-size: cover;
     position: absolute;
     right: 0;
-    margin-block: -108px;
+    margin-block: -75px;
+    margin-right: 38px;
      
 }
 .title{
@@ -125,6 +138,7 @@ h3{
     color:white;
     margin-left: 5px;
 }
+
  
 a{
     text-decoration: none;
@@ -146,7 +160,8 @@ a{
     float: left;
     text-align: center;
     font-family: poppins;
-    border-radius: 20px;
+    border-bottom-right-radius: 36px;
+    border-top-left-radius: 36px;
     cursor: pointer;
     padding-top: 0px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),
@@ -166,6 +181,7 @@ img{
     text-align: center;
     margin: 0 auto;
     display: block;
+    border-top-left-radius: 36px;
 }
 
 ul{
@@ -191,5 +207,13 @@ li{
 
 .checked{
     color: #FF7A00;
+}
+
+.mid{
+    background-color: #FF7A00;
+    width: 1520px;
+    height: 2000px;
+    margin-top: 0px;
+
 }
 
