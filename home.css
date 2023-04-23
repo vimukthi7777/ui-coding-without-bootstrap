@@ -5,6 +5,7 @@ body{
     margin: 0;
     margin-left: 0;
     margin-right: 0;
+    background-color: #FF7A00;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     background-size:cover;
     background-position: center;
     height: 839px;
-    width: 1320px;
+    width: revert;
     padding: 0 100px;
     margin-left: 0px;
       }
@@ -74,20 +75,22 @@ header {
     text-decoration: none;
     font-size: 16px;
     border-radius: 0px;
-    margin-top: -12px;
+    margin-top: -11px;
+    margin-right: 50spx;
 }
 
 /* hero section */
 
 .upimg{
     background-image: url(image/sky.png);
-    height: 615px;
-    width: 619px;
+    height: 530px;
+    width: 530px;
     background-size: cover;
     position: absolute;
     right: 0;
-    margin-block: -75px;
-    margin-right: 38px;
+    margin-block: -48px;
+    margin-right: 90px;
+    background-repeat: no-repeat;
      
 }
 .title{
@@ -209,11 +212,208 @@ li{
     color: #FF7A00;
 }
 
-.mid{
-    background-color: #FF7A00;
-    width: 1520px;
-    height: 2000px;
-    margin-top: 0px;
+/*catagory section*/
 
+.category0{
+    background-color: white;
+    width: 1400px;
+    height: 660px;
+    border-radius: 36px;
+    margin-top: 15px;
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.tmid{
+    margin-top: 425px;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/*catagory images*/
+
+.inside-box{
+    width: 275px;
+    height: 215px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box2{
+    width: 275px;
+    height: 438px;
+    background-color:black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box3{
+    width: 275px;
+    height: 330px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box4{
+    width: 275px;
+    height: 330px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box5{
+    width: 275px;
+    height: 210px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: -217px;
+    margin-right: 854px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box6{
+    width: 565px;
+    height: 175px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: 0px;
+    margin-right: 1px;
+    margin-left: -17px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box7{
+    width: 560px;
+    height: 285px;
+    background-color: black;
+    display:flex;
+    border-radius: 36px;
+    margin-block: -110px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inside-box:nth-child(1){
+    background-image: url(events/wild.jpg);
+    background-size: cover;
+  }
+
+.inside-box2:nth-child(2){
+    background-image: url(events/waterfall.jpg);
+    background-size: cover;
+  }
+
+.inside-box3:nth-child(3){
+    background-image: url(events/hiking.jpg);
+    background-size: cover;
+  }
+
+.inside-box4:nth-child(4){
+    background-image: url(events/photogrf.jpg);
+    background-size: cover;
+  }
+
+.inside-box5:nth-child(5){
+    background-image: url(events/scubd.webp);
+    background-size: cover;
+  }
+
+.inside-box6:nth-child(6){
+    background-image: url(events/surf.jpg);
+    background-size: cover;
+  }
+
+.inside-box7:nth-child(7){
+    background-image: url(events/fest.jpg);
+    background-size: cover;
+  }
+
+  .box-overlay{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #000;
+      border-radius: 36px;
+      opacity: 0.1;
+      transition: all ease-in-out 200ms;
+  }
+  
+.inside-box:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box2:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box3:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box4:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box5:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box6:hover .box-overlay {
+    opacity: 0.55;
+}
+.inside-box7:hover .box-overlay {
+    opacity: 0.55;
+}
+
+h2{
+    color: #ffffff;
+    line-height: 28PX;
+    text-shadow: -2px 2px 4px #000;
+    z-index: 100;
 }
 
